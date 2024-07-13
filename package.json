@@ -1,0 +1,19 @@
+{
+  "name": "tw-coffee",
+  "version": "1.0.0",
+  "description": "hangdev.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "hangdev.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
